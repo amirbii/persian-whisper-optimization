@@ -33,7 +33,7 @@ CPU Inference + WER Evaluation
 ## 🛠️ Tech Stack
 
 - **Model**: `openai/whisper-large-v3-turbo`
-- **Fine-tuning**: LoRA (PEFT) with 8-bit quantized base model (QLoRA-style)
+- **Fine-tuning**: LoRA (PEFT) with 8-bit quantized base model (LoRA-style)
 - **Dataset**: [hezarai/common-voice-13-fa](https://huggingface.co/datasets/hezarai/common-voice-13-fa)
 - **Deployment**: `whisper.cpp` (GGUF, Q8_0 quantization) for CPU inference
 - **Evaluation**: Word Error Rate (WER) via `jiwer`
