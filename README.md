@@ -144,7 +144,7 @@ The values below were extracted directly from the files in the `results` directo
 
 | Model / format | Reported environment | Average time per file | Average WER |
 |---|---|---:|---:|
-| Persian fine-tuned Q8 | Colab CPU | 95.07 seconds | 78.90% |
+| Persian fine-tuned Q8 | Colab CPU | 60.07 seconds | 91.90% |
 | Whisper large-v3-turbo | Colab CPU | 45.40 seconds | 96.87% |
 | OpenVINO FP16 | Colab CPU | 37.86 seconds | 94.69% |
 
