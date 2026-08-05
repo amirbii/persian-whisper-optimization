@@ -1,5 +1,7 @@
 # Persian Whisper Optimization
 
+[English](README.md) | [فارسی](README.fa.md)
+
 بهینه‌سازی، تنظیم دقیق و ارزیابی مدل‌های **Whisper** برای بازشناسی گفتار فارسی، با تمرکز بر آموزش کم‌هزینه با **LoRA و 8-bit quantization** و اجرای مدل روی **CPU** با `whisper.cpp` و `OpenVINO`.
 
 > این مخزن یک روند چندمرحله‌ای را پوشش می‌دهد: آماده‌سازی داده، Fine-tuning، ادغام LoRA، تبدیل و Quantization مدل، اجرای inference و مقایسه‌ی نتایج بر اساس زمان پردازش و WER.
